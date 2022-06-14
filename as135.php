@@ -8,9 +8,13 @@ class simple{
 	public function display(){
 	echo $this->a;
 	}
+	public function show(){
+		echo $this -> a;
+	}
 }
 $obj=new simple();
 $obj->display();
+$obj -> show();
 
 
 
